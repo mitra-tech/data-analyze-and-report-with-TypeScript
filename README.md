@@ -9,3 +9,8 @@
   ### Type Assertion : 
   When we try to overwrite TypeScript's default behavior.
   We can use it with any kind of type, it is not limited just to be in used with enums.
+
+### Tuple
+Is very similar to an array but it's meant to organize elements inside of it in a very specific order
+
+Refactoring the CsvFileReader type definition to make it reuseable for any other kind of types (In case of extending the data in the future)
