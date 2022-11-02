@@ -12,5 +12,7 @@
 
 ### Tuple
 Is very similar to an array but it's meant to organize elements inside of it in a very specific order
-
 Refactoring the CsvFileReader type definition to make it reuseable for any other kind of types (In case of extending the data in the future)
+
+
+### Abstract Classes: turning the CsvFile into an Abstract Class (Abstract Classes in TS: theey are classes that we are never going to use to create an instance of an object) so not creating an instance of the CsvFile any more. The abstract method is going to be implemented by some child classes. 
