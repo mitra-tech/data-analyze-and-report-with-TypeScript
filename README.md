@@ -17,3 +17,8 @@ Refactoring the CsvFileReader type definition to make it reuseable for any other
 
 ### Abstract Classes: 
 turning the CsvFile into an Abstract Class (Abstract Classes in TS: theey are classes that we are never going to use to create an instance of an object) so not creating an instance of the CsvFile any more. The abstract method is going to be implemented by some child classes. 
+
+### Generics:
+Are like function arguments, but for types in class/function definition,
+Allows us to define the typs of a property/argument/return value at a future point,
+Used heavily when writing reuseable code (in this code example MatchData in CsvFile was replaced with Generics)
