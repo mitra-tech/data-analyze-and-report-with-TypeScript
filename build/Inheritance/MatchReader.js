@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MatchReader = void 0;
 const CsvFileReder_1 = require("./CsvFileReder");
-const utils_1 = require("./utils");
+const utils_1 = require("../utils");
 class MatchReader extends CsvFileReder_1.CsvFileReader {
     mapRow(row) {
         return [
