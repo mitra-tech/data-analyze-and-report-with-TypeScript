@@ -23,4 +23,4 @@ Are like function arguments, but for types in class/function definition,
 Allows us to define the typs of a property/argument/return value at a future point,
 Used heavily when writing reuseable code (in this code example MatchData in CsvFile was replaced with Generics)
 
-Refactored the structure of the code to make sure that MatchReader is 100% stand alone and reuseable!
+Refactored the structure of the code to make sure that CsvFileReader is 100% stand alone and reuseable!
