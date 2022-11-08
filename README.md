@@ -24,3 +24,9 @@ Allows us to define the typs of a property/argument/return value at a future poi
 Used heavily when writing reuseable code (in this code example MatchData in CsvFile was replaced with Generics)
 
 Refactored the structure of the code to make sure that CsvFileReader is 100% stand alone and reuseable!
+
+## Inheritance vs Composition
+### Inheritance (We use it when we have two classes that are bound together by a "Is A" relationship. MatchReader is a CsvFileReader because it has all the properties and methods that CsvFileReader has): the first approach was focusing on Inheritance (in inheritance file) and the second one focused on Composition!
+<br/>
+Inheritance: (We use it when we have two classes that are bound together by a "Has A" relationship, in this case MatchReader had a refrences to some outside object). we had an abstract class CsvFileReader and it had child class called MatchReader. (we had a parent class that had really some core functionality then we extended that class and created a child class out of it)
+### Composition: the second approach focused on Composition! we had a class called MatchReader, and the MatchReader had a refrence to some other object. 
