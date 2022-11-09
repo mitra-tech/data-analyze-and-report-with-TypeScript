@@ -30,3 +30,4 @@ Refactored the structure of the code to make sure that CsvFileReader is 100% sta
 <br/>
 Inheritance: (We use it when we have two classes that are bound together by a "Has A" relationship, in this case MatchReader had a refrences to some outside object). we had an abstract class CsvFileReader and it had child class called MatchReader. (we had a parent class that had really some core functionality then we extended that class and created a child class out of it)
 ### Composition: the second approach focused on Composition! we had a class called MatchReader, and the MatchReader had a refrence to some other object. 
+To read more about composition vs inheritence => Design Patterns (book), page 20
